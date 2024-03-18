@@ -14,11 +14,11 @@ export default class Command extends BaseCommand {
 
     exec = async (M, { flags, text }) => {
         if ('admins' in flags)
-            return void (await M.reply('👤 *Pingind Admins*', 'text', undefined, undefined, M.group?.admins))
+            return void (await M.reply('👑 *Pingind Admins*', 'text', undefined, undefined, M.group?.admins))
 
         if (!M.isAdminMessage) return void (await M.reply('❌ *You must be an admin to ping all users*'))
         return void (await M.reply(
-            text ? `👥 *Pinging Everyone*\n\n*🔈 announcement :* ${text}` : '👥 *Pinging Everyone* ',
+            text ? `🏅 *Pinging Everyone*\n\n*🔈 announcement :* ${text}` : '✨ *Pinging Everyone* ',
             'text',
             undefined,
             undefined,
