@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
             typeof media === 'string' ? media : await this.client.util.downloadMediaMessage(media),
             {
                 pack: pack ?? `${this.client.config.name} Bot`,
-                author: title ?? 'By Debanjan',
+                author: title ?? 'By Dipeshuuu:)',
                 type: StickerTypes.FULL,
                 quality: 70
             }
