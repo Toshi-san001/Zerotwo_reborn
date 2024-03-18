@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
         const [pack, title] = text.split('|')
         const sticker = new Sticker(await this.client.util.downloadMediaMessage(media), {
             pack: pack ?? `${this.client.config.name} Bot`,
-            author: title ?? 'By Debanjan',
+            author: title ?? 'By Dipeshuuu:)',
             type: StickerTypes.FULL,
             quality: 70
         })
