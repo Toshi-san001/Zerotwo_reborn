@@ -29,10 +29,10 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `🚀 *Hey, ${M.sender.username}! ${this.client.config.name}'s Command Center is ready for action! Check out these cool commands:* 🚀\n\n💡 *My Prefix is ( ${this.client.config.prefix} )*\n\n`
+            let text = `✨ *Namaste 🙏🏻 ji, ${M.sender.username}! ${this.client.config.name}'s This is my command list:* 🚀\n\n💡 *My Prefix is ( ${this.client.config.prefix} )*\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
-                text += `━━❰･${key.toUpperCase()}${this.emojis[keys.indexOf(key)]}SIDE･❱━━\n➣ \`\`\`${categories[key]
+                text += `❰❰❰･${key.toUpperCase()}${this.emojis[keys.indexOf(key)]}SIDE･❱❱❱\n➣ \`\`\`${categories[key]
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
 
