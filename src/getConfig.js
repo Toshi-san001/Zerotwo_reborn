@@ -2,7 +2,7 @@ import 'dotenv/config'
 const getConfig = () => {
     return {
         name: process.env.NAME || 'Devi',
-        session: process.env.SESSION || 'ZER',
+        session: process.env.SESSION || 'Devi',
         prefix: process.env.PREFIX || '+',
         port: process.env.PORT || 3000,
         imgbb: process.env.IMGBB,
