@@ -27,6 +27,6 @@ import P from 'pino'
             keys: makeCacheableSignalKeyStore(authSession.state.keys)
         },
         logger: P({ level: 'silent' }),
-        printQRInTerminal: true
+        printQRInTerminal: false
     }).connect()
 })()
