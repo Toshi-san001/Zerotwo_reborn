@@ -3,7 +3,7 @@ const getConfig = () => {
     return {
         name: process.env.NAME || 'Devi',
         session: process.env.SESSION || 'Devi',
-        prefix: process.env.PREFIX || '+',
+        prefix: process.env.PREFIX || '#',
         port: process.env.PORT || 3000,
         imgbb: process.env.IMGBB,
         chatboturi: process.env.BRAINSHOP || 'http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=[msg]',
