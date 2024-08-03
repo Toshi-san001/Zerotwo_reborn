@@ -28,8 +28,8 @@ Devi is a whatsapp bot created with [@whiskeysockets/baileys](https://github.com
 Clone this project
 
 ```bash
-> git clone https://github.com/Debanjan-San/WhatsApp-Bot-Devi.git
-> cd WhatsApp-Bot-Devi
+> git clone https://github.com/Toshi-san001/Zerotwo_reborn.git
+> cd Zerotwo_reborn
 ```
 
 Installing the dependencies (**make sure you're in the project directory that you've just cloned**):
